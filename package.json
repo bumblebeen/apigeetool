@@ -1,0 +1,27 @@
+{
+  "name": "apigeetool",
+  "version": "0.0.1",
+  "private": "true",
+  "description": "My new Apigee 127 Project",
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "main": "app.js",
+  "dependencies": {
+    "a127-magic": "^0.10.0",
+    "express": "3.x.x",
+    "node-fetch": "^1.7.3"
+  },
+  "devDependencies": {
+    "should": "4.4.x",
+    "supertest": "0.15.x"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "api": {
+    "name": "apigeetool",
+    "basePath": "/apigeetool",
+    "main": "app.js"
+  }
+}
